@@ -1,0 +1,53 @@
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    background-color: lightskyblue;
+    padding:10px
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+footer{
+    color: #333333;
+    margin-top:16px;
+    border-top: 1px solid #eeeeee;
+    padding: 16px 0;
+}
+header a{
+    color: #888888;
+    margin-right:16px;
+    text-decoration: none;
+    padding:10px
+}
+header a:hover{
+    background-color: pink
+}
+body{
+    color:#333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh /*100% of viewport height */
+}
+.main-content{
+    flex-grow: 1;
+}
+.portrait{
+    width: 200px;
+}
+input{
+    border:1px solid #cccccc; 
+    border-radius:5px;
+    padding:5px
+}
+button{
+    background-color: lawngreen; 
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
